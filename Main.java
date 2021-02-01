@@ -10,7 +10,7 @@ class Main {
     // Print statements to get scanner variables
     System.out.println("Enter your age:");
     int currentAge = scan.nextInt();
-    System.out.println("Enter a number of years to pass:");
+    System.out.println("Enter any number of years");
     int yearsPassing = scan.nextInt();
 
     // Run calculateBalance using variables received from scanner
@@ -21,7 +21,7 @@ class Main {
     double currentMoney = scan.nextDouble();
     System.out.println("How much money does your job pay per hour?:");
     double hourlyWage = scan.nextDouble();
-    System.out.println("How many hours do you plan to work this weeks?:");
+    System.out.println("How many hours do you plan to work this week?:");
     int hoursWorking = scan.nextInt();
     
     // Run calculateBalance using variables received from scanner
@@ -51,7 +51,7 @@ class Main {
     // Statements that method will print
     System.out.println("If you work " + hours + " hours this week, with an hourly wage of " + wage + ", you will make " + weeklyWage + " dollars");
     
-    System.out.print("So, at the end of the week you will have: ");
+    System.out.print("So, at the end of the week you will have a total balance of: ");
 
     // returns this variable
     return totalMoney;
